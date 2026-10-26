@@ -11,7 +11,7 @@ MODEL_DIR = pathlib.Path("model")
 
 # Model settings.
 N_ESTIMATORS = 10  # number of trees in the forest
-MAX_DEPTH = None # maximum depth of each tree; None means no limit
+MAX_DEPTH = None  # maximum depth of each tree; None means no limit
 RANDOM_STATE = 42  # fixed seed
 TEST_SIZE = 0.2  # test split fraction
 
