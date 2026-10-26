@@ -17,7 +17,6 @@ TEST_SIZE = 0.2  # test split fraction
 
 
 def load_data():
-    
     """Split the iris dataset into a training set and a test set."""
     iris = load_iris()
     X_train, X_test, y_train, y_test = train_test_split(
