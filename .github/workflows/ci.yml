@@ -1,5 +1,4 @@
 # GitHub Actions workflow.
-
 name: CI
 
 # # Run on push to a branch.
